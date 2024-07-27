@@ -20,7 +20,7 @@ This project contains a script to perform a timing attack trying to bruteforce p
     ```
 5. Run the script:
     ```bash
-    python passcracker.py
+    python passcrack.py
     ```
 
 The script will attempt to determine the correct password using timing attacks and print the best password combination it finds.
