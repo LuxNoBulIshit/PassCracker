@@ -14,11 +14,7 @@ This project contains a script to perform a timing attack trying to bruteforce p
     ```bash
     chmod +x vault.elf
     ```
-4. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-5. Run the script:
+4. Run the script:
     ```bash
     python passcrack.py
     ```
