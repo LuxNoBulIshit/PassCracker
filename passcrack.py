@@ -4,6 +4,7 @@ import string
 import statistics
 from collections import Counter
 
+
 def test_password(password, trials=100):
     times = []
     for _ in range(trials):
@@ -14,6 +15,7 @@ def test_password(password, trials=100):
         times.append(elapsed_time)
     median_time = statistics.median(times)
     return median_time, times
+
 
 def find_best_letter(current_password, trials=100):
     results = {}
@@ -38,6 +40,7 @@ def find_best_letter(current_password, trials=100):
 
     confidence_level = (confidence_counts[best_char] / trials) * 100
     return best_char, results[best_char], confidence_level, results
+
 
 if __name__ == "__main__":
     current_password = ""
